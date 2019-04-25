@@ -1,9 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Appointment.aspx.cs" Inherits="Myapplication.Appointment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Appointment.aspx.cs" Inherits="Myapplication.Appointment" MasterPageFile="Promedical.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="masteHeadCPH" runat="server"> 
     <title></title>
     <style type="text/css">
         .auto-style1 {
@@ -11,28 +8,8 @@
             height: 62px;
         }
     </style>
-    &nbsp;</head><body><form id="form1" runat="server">
-       
-        <div>
-            <img alt="Logo" class="auto-style1" src="Images/Logo.png" /><br />
-            <br />
-            <p></p>
-      
-            <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" StaticSubMenuIndent="10px" Orientation="Horizontal">
-                <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
-                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <DynamicMenuStyle BackColor="#B5C7DE" />
-                <DynamicSelectedStyle BackColor="#507CD1" />
-                <Items>
-                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/Appointment.aspx" Text="Appointment" Value="Appointment"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/UserRegistration.aspx" Text="Login" Value="Login"></asp:MenuItem>
-                </Items>
-                <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
-                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <StaticSelectedStyle BackColor="#507CD1" />
-            </asp:Menu>
-             <p></p>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="masteBodyCPH" runat="server">
        
             <h2>Patient Appointment</h2>
             Appointment date<asp:Calendar ID="cldrApptDate" runat="server"></asp:Calendar>
@@ -61,7 +38,4 @@
             <asp:DropDownList ID="ddlPhysician" runat="server" Width="167px">
             </asp:DropDownList>
             <br />
-        </div>
-    </form>
-</body>
-</html>
+</asp:Content>

@@ -13,22 +13,13 @@ namespace Myapplication {
     public partial class Cosultation {
         
         /// <summary>
-        /// form1 control.
+        /// LBTemperature control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// Menu1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
+        protected global::System.Web.UI.WebControls.Label LBTemperature;
         
         /// <summary>
         /// txtTemp control.
@@ -49,6 +40,15 @@ namespace Myapplication {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
         
         /// <summary>
+        /// lbHeartRate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbHeartRate;
+        
+        /// <summary>
         /// txtHeartRate control.
         /// </summary>
         /// <remarks>
@@ -56,6 +56,33 @@ namespace Myapplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtHeartRate;
+        
+        /// <summary>
+        /// lbRespirationRate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbRespirationRate;
+        
+        /// <summary>
+        /// txtRespirationRate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtRespirationRate;
+        
+        /// <summary>
+        /// lbBloodPressure control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbBloodPressure;
         
         /// <summary>
         /// txtSYS control.
@@ -85,6 +112,15 @@ namespace Myapplication {
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
         
         /// <summary>
+        /// lbPainScore control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbPainScore;
+        
+        /// <summary>
         /// txtPainScore control.
         /// </summary>
         /// <remarks>
@@ -94,6 +130,15 @@ namespace Myapplication {
         protected global::System.Web.UI.WebControls.TextBox txtPainScore;
         
         /// <summary>
+        /// lbPainLocation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbPainLocation;
+        
+        /// <summary>
         /// txtLocation control.
         /// </summary>
         /// <remarks>
@@ -101,6 +146,15 @@ namespace Myapplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLocation;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
         /// txtAnatomic control.

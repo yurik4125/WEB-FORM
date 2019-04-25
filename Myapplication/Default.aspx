@@ -1,9 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Myapplication.Default" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Promedical.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Myapplication.Default" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="masteHeadCPH" runat="server"> 
     <title>My application main page</title>
     <link href="Styles/Styles.css" rel="stylesheet" />
     <style type="text/css">
@@ -29,28 +25,11 @@
             height: 20px;
         }
     </style>
-    &nbsp;</head><body><form id="form1" runat="server">
-        <div>
-
-            <img class="auto-style1" src="Images/Logo.png" />
-
-        </div>
-        <h2>Welcome to the main page</h2>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="masteBodyCPH" runat="server">
+    <h2>Welcome to the main page</h2>
         <p></p>
-        <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" StaticSubMenuIndent="10px" Orientation="Horizontal">
-            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
-            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-            <DynamicMenuStyle BackColor="#B5C7DE" />
-            <DynamicSelectedStyle BackColor="#507CD1" />
-            <Items>
-                <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/Appointment.aspx" Text="Appointment" Value="Appointment"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/UserRegistration.aspx" Text="Login" Value="Login"></asp:MenuItem>
-            </Items>
-            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
-            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-            <StaticSelectedStyle BackColor="#507CD1" />
-        </asp:Menu>
+        
                     <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
         <br />
         <table class="auto-style2">
@@ -223,6 +202,14 @@
         <p>&nbsp;</p>
         <br />
         <br />
-    </form>
-</body>
-</html>
+</asp:Content>
+
+
+
+
+
+
+
+  
+
+

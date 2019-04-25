@@ -68,10 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Appointment.aspx" />
+    <Content Include="App_Themes\PromedicDefault\MianStyle.css" />
     <Content Include="Cosultation.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\beautiful.jpg" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\war.jpg" />
+    <Content Include="Diagnostic.aspx" />
     <Content Include="Styles\Styles.css" />
     <Content Include="UserRegistration.aspx" />
     <Content Include="Web.config" />
@@ -98,6 +101,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Diagnostic.aspx.cs">
+      <DependentUpon>Diagnostic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diagnostic.aspx.designer.cs">
+      <DependentUpon>Diagnostic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Promedical.Master.cs">
+      <DependentUpon>Promedical.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Promedical.Master.designer.cs">
+      <DependentUpon>Promedical.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>
@@ -108,7 +125,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\PromedicDefault\MainSkin.skin" />
     <None Include="packages.config" />
+    <Content Include="Promedical.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

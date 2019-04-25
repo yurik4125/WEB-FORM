@@ -1,4 +1,13 @@
-﻿.auto-style1 {
+﻿body {
+    margin: 55px;
+    padding: 0;
+    background-color: blue;
+}
+form {
+    background-image: url("/Images/beautiful.jpg");
+}
+
+.auto-style1 {
     width: 77px;
     height: 62px;
 }

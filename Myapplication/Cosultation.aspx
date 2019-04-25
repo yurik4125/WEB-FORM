@@ -1,9 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cosultation.aspx.cs" Inherits="Myapplication.Cosultation" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cosultation.aspx.cs" Inherits="Myapplication.Cosultation" MasterPageFile="Promedical.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="masteHeadCPH" runat="server"> 
     <title>My application main page</title>
     <link href="Styles/Styles.css" rel="stylesheet" />
     <script>
@@ -23,58 +20,50 @@
         .auto-style7 {
             height: 23px;
         }
+    .auto-style8 {
+        width: 224px;
+        height: 26px;
+    }
+    .auto-style9 {
+        height: 26px;
+    }
     </style>
-    <img src="Images/Logo.png" alt="logo" />
-    
-&nbsp;</head><body>
-<form id="form1" runat="server">
-       
-                
-                <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" StaticSubMenuIndent="10px" Orientation="Horizontal">
-                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
-                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <DynamicMenuStyle BackColor="#B5C7DE" />
-                    <DynamicSelectedStyle BackColor="#507CD1" />
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Appointment.aspx" Text="Appointment" Value="Appointment"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/UserRegistration.aspx" Text="Login" Value="Login"></asp:MenuItem>
-                    </Items>
-                    <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
-                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <StaticSelectedStyle BackColor="#507CD1" />
-                </asp:Menu>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="masteBodyCPH" runat="server">
             
                 <h2>Consultation</h2><br />
             
                 <table class="auto-style2">
                     <tr>
-                        <td class="auto-style5">Temperature</td>
+                        <td class="auto-style5">
+                            <asp:Label ID="LBTemperature" runat="server" Text="Temperature"></asp:Label>
+                        </td>
                         <td>
                             <asp:TextBox ID="txtTemp" runat="server" CausesValidation="True"></asp:TextBox>
                             <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtTemp" ErrorMessage="Temperature can’t be below 30 or beyond 44" MaximumValue="44" MinimumValue="30"></asp:RangeValidator>
                         </td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">Heart rate</td>
-                        <td>
+                        <td class="auto-style8">
+                            <asp:Label ID="lbHeartRate" runat="server" Text="Heart rate"></asp:Label>
+                        </td>
+                        <td class="auto-style9">
                             <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td class="auto-style5"><span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
-mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Respiration rate</span></td>
-                        <td>&nbsp;</td>
+                        <td class="auto-style5">
+                            <asp:Label ID="lbRespirationRate" runat="server" Text="Respiration rate"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtRespirationRate" runat="server"></asp:TextBox>
+                        </td>
                     </tr>
                     <tr>
-                        <td class="auto-style5"><span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
-mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Blood pressure</span></td>
+                        <td class="auto-style5">
+                            <asp:Label ID="lbBloodPressure" runat="server" Text="Blood pressure"></asp:Label>
+                        </td>
                         <td>S<strong><span style="font-size:11.0pt;line-height:
 107%;font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;
 mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
@@ -88,31 +77,25 @@ mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">ysto
                             </span></strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5"><span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
-mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Pain score</span></td>
+                        <td class="auto-style5">
+                            <asp:Label ID="lbPainScore" runat="server" Text="Pain score"></asp:Label>
+                        </td>
                         <td>
                             <asp:TextBox ID="txtPainScore" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td class="auto-style5"><span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
-mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Pain location</span></td>
+                        <td class="auto-style5">
+                            <asp:Label ID="lbPainLocation" runat="server" Text="Pain location"></asp:Label>
+                        </td>
                         <td>
                             <asp:TextBox ID="txtLocation" runat="server" MaxLength="40"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td class="auto-style6"><span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
-mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Anatomic observations </span></td>
+                        <td class="auto-style6">
+                            <asp:Label ID="Label1" runat="server" Text="Anatomic observations "></asp:Label>
+                        </td>
                         <td class="auto-style7">
                             <asp:TextBox ID="txtAnatomic" runat="server"></asp:TextBox>
                         </td>
@@ -121,6 +104,4 @@ mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Anat
             
                 <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="485px" />
             
-    </form>
-</body>
-</html>
+</asp:Content>

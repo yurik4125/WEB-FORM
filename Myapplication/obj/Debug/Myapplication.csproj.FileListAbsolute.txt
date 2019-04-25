@@ -1,0 +1,112 @@
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\Myapplication.dll.config
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\Myapplication.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\Myapplication.pdb
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csc.exe
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csc.exe.config
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csc.rsp
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csi.exe
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csi.exe.config
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\csi.rsp
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.AppContext.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Collections.Immutable.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Console.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.IO.Compression.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.IO.FileSystem.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.IO.Pipes.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.AccessControl.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Claims.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Security.Principal.Windows.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.ValueTuple.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Xml.XPath.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\vbc.exe
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\vbc.exe.config
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\vbc.rsp
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\VBCSCompiler.exe
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\roslyn\VBCSCompiler.exe.config
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\obj\Debug\Myapplication.csprojAssemblyReference.cache
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\obj\Debug\Myapplication.csproj.CoreCompileInputs.cache
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\obj\Debug\Myapplication.csproj.CopyComplete
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\obj\Debug\Myapplication.dll
+E:\CEGEP Heritage\Course 8\Web Programming\Myapplication\Myapplication\obj\Debug\Myapplication.pdb
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\Myapplication.dll.config
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\Myapplication.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\Myapplication.pdb
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csc.exe
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csc.exe.config
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csc.rsp
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csi.exe
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csi.exe.config
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\csi.rsp
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.AppContext.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Collections.Immutable.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Console.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.IO.Compression.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.IO.FileSystem.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.IO.Pipes.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.AccessControl.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Claims.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.ValueTuple.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Xml.XPath.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\vbc.exe
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\vbc.exe.config
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\vbc.rsp
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\VBCSCompiler.exe
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\roslyn\VBCSCompiler.exe.config
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\obj\Debug\Myapplication.csprojAssemblyReference.cache
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\obj\Debug\Myapplication.csproj.CoreCompileInputs.cache
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\obj\Debug\Myapplication.csproj.CopyComplete
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\obj\Debug\Myapplication.dll
+C:\C#_WEB\Myapplication\Myapplication\Myapplication\obj\Debug\Myapplication.pdb

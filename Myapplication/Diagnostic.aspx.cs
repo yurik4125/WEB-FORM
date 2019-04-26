@@ -11,7 +11,10 @@ namespace Myapplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string patientFName = Convert.ToString(Session["Fname"]);
+            string patientLName = Convert.ToString(Session["Lname"]);
+            lblPatientName.Text = patientFName+ "  _  "+patientLName;
+      
         }
     }
 }

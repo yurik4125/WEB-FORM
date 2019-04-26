@@ -9,30 +9,13 @@
             
         }
     </script>
-    <style type="text/css">
-        .auto-style5 {
-            width: 224px;
-        }
-        .auto-style6 {
-            width: 224px;
-            height: 23px;
-        }
-        .auto-style7 {
-            height: 23px;
-        }
-    .auto-style8 {
-        width: 224px;
-        height: 26px;
-    }
-    .auto-style9 {
-        height: 26px;
-    }
-    </style>
-</asp:Content>
+    </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="masteBodyCPH" runat="server">
             
-                <h2>Consultation</h2><br />
+                <h2>Consultation</h2>&nbsp;Customer Name:&nbsp;&nbsp;
+                <asp:Label ID="lbPatientName" runat="server" ForeColor="#003300" Text="NO Patient selected"></asp:Label>
+                <br />
             
                 <table class="auto-style2">
                     <tr>
@@ -99,6 +82,22 @@ mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">ysto
                         <td class="auto-style7">
                             <asp:TextBox ID="txtAnatomic" runat="server"></asp:TextBox>
                         </td>
+                    </tr>
+                    <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="LbWeight" runat="server" Text="Weight"></asp:Label>
+                            </td>
+                <td class="auto-style9">
+                    <asp:TextBox ID="txtWeight" runat="server" CausesValidation="True"></asp:TextBox>
+                            </td>
+                    </tr>
+                    <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="LbHeigh" runat="server" Text="Height"></asp:Label>
+                            </td>
+                <td class="auto-style9">
+                    <asp:TextBox ID="txtHeight" runat="server" CausesValidation="True"></asp:TextBox>
+                            </td>
                     </tr>
                     </table>
             

@@ -13,6 +13,24 @@ namespace Myapplication {
     public partial class Appointment {
         
         /// <summary>
+        /// lbPatientName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbPatientName;
+        
+        /// <summary>
+        /// txtPatientName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txtPatientName;
+        
+        /// <summary>
         /// cldrApptDate control.
         /// </summary>
         /// <remarks>

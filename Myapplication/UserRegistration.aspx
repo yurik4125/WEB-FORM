@@ -42,6 +42,7 @@
                 <td>
                     <asp:TextBox ID="txtLogin" runat="server" CausesValidation="True"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldLogin" runat="server" ControlToValidate="txtLogin" Display="Dynamic" ErrorMessage="*" ForeColor="#FF0066"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtLogin" Display="Dynamic" ErrorMessage="format is incorrect" ForeColor="#FF0066" ValidationExpression="^[A-Za-z]+$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>

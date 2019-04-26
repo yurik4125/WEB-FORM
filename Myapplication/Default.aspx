@@ -3,23 +3,6 @@
     <title>My application main page</title>
     <link href="Styles/Styles.css" rel="stylesheet" />
     <style type="text/css">
-        .auto-style5 {
-            width: 111px;
-        }
-        .auto-style6 {
-            width: 111px;
-            height: 31px;
-        }
-        .auto-style7 {
-            height: 31px;
-        }
-        .auto-style8 {
-            width: 415px;
-        }
-        .auto-style9 {
-            height: 31px;
-            width: 415px;
-        }
         .auto-style10 {
             width: 32px;
             height: 20px;
@@ -38,7 +21,7 @@
                     <asp:Label ID="lblCustomerID" runat="server" Text="Customer ID"></asp:Label>
                 </td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtID" runat="server" Width="188px" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="txtID" runat="server" Width="188px" CausesValidation="True">1</asp:TextBox>
                     <asp:RequiredFieldValidator ID="ReqValidatorID" runat="server" ErrorMessage="ID is empty" ControlToValidate="txtID" Display="Dynamic" ForeColor="#FF0066"><img alt="o" class="auto-style10" src="Images/war.jpg" /></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style4">
@@ -49,7 +32,7 @@
                     <asp:Label ID="LlblLastName" runat="server" Text="Last Name"></asp:Label>
                 </td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtLname" runat="server" Width="143px" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="txtLname" runat="server" Width="143px" CausesValidation="True">IO</asp:TextBox>
                     <asp:RequiredFieldValidator ID="ReqValidatorLast" runat="server" ControlToValidate="txtLname" ErrorMessage="Last Required" ForeColor="#FF0066">*</asp:RequiredFieldValidator>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtLname" Display="Dynamic" ErrorMessage="format is incorrect" ForeColor="#FF0066" ValidationExpression="^[A-Za-z]+$"></asp:RegularExpressionValidator>
@@ -62,7 +45,7 @@
                     <asp:Label ID="lblFirstName" runat="server" Text="First Name"></asp:Label>
                 </td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtFname" runat="server" Width="148px" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="txtFname" runat="server" Width="148px" CausesValidation="True">OI</asp:TextBox>
                     <asp:RequiredFieldValidator ID="ReqValidatorFirst" runat="server" ControlToValidate="txtFname" ErrorMessage="First Required" ForeColor="#FF0066">*</asp:RequiredFieldValidator>
                 &nbsp;&nbsp;&nbsp;
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtFname" Display="Dynamic" ErrorMessage="format is incorrect" ForeColor="#FF0066" ValidationExpression="^[A-Za-z]+$"></asp:RegularExpressionValidator>
@@ -177,7 +160,7 @@
                     <asp:Label ID="LbWeight" runat="server" Text="Weight"></asp:Label>
                             </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="txtWeight" runat="server" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="txtWeight" runat="server" CausesValidation="True">77</asp:TextBox>
                     <asp:RequiredFieldValidator ID="rngWeight" runat="server" ControlToValidate="txtWeight" Display="Dynamic" ErrorMessage="Weight is empty " ForeColor="#FF0066">*</asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Weight must be between 40-140" MaximumValue="140" MinimumValue="40" ControlToValidate="txtWeight" Type="Integer">*</asp:RangeValidator>
                             </td>
@@ -188,7 +171,7 @@
                     <asp:Label ID="LbHeigh" runat="server" Text="Height"></asp:Label>
                             </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="txtHeight" runat="server" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="txtHeight" runat="server" CausesValidation="True">78</asp:TextBox>
                     <asp:RequiredFieldValidator ID="rngHeight" runat="server" ControlToValidate="txtHeight" Display="Dynamic" ErrorMessage="Height  is empty" ForeColor="Red">*</asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="RangeValidator2" runat="server" ErrorMessage="Height must be between 60-240" MaximumValue="140" MinimumValue="60" ControlToValidate="txtHeight" Display="Dynamic" ForeColor="Red" Type="Integer">*</asp:RangeValidator>
                             </td>
@@ -196,7 +179,11 @@
             </tr>
         </table>
         <p class="auto-style7">
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+        &nbsp;&nbsp;
+            <asp:Button ID="btnConsalt" runat="server" OnClick="btnConsalt_Click" PostBackUrl="~/Cosultation.aspx" Text="Consultation" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnSave" runat="server" OnClick="btnSave_Click" Text="SAVE" />
         <br />
         </p>
         <p>&nbsp;</p>

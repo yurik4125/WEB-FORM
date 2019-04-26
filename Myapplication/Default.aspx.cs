@@ -23,5 +23,28 @@ namespace Myapplication
 
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+          
+            Server.Transfer("Appointment.aspx");
+            //Response.Redirect("Appointment.aspx");
+        }
+
+        protected void btnConsalt_Click(object sender, EventArgs e)
+        {
+           
+           
+        }
+
+        protected void btnSave_Click(object sender, EventArgs e)
+        {
+            Session["Fname"] = txtFname.Text;
+           
+            Session.Add("Lname", txtLname.Text);
+            Response.Redirect("Diagnostic.aspx");
+           
+
+        }
     }
 }

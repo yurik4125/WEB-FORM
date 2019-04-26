@@ -2,5 +2,5 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="masteHeadCPH" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="masteBodyCPH" runat="server">
-    Olga
+    Name: <asp:Label ID="lblPatientName" runat="server" Text="No patient selected"></asp:Label>
 </asp:Content>
